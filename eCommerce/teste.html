@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css"
+    />
+</head>
+<body>
+  <section id="product1" class="section-p1" >
+    <h2>Featured Products</h2>
+    <p>Summer Collection New Morden Design</p>
+    <div class="pro-container" id="pro-container">
+        <div class="pro">
+          <img src="img/products/f1.jpg" alt="product">
+          <div class="des" >
+            <span>Adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <!-- <div class="star">
+              <i class="ph-bold ph-star"></i>
+              <i class="ph-bold ph-star"></i>
+              <i class="ph-bold ph-star"></i>
+              <i class="ph-bold ph-star"></i>
+              <i class="ph-bold ph-star"></i>
+            </div> -->
+            <h4>R$78,00</h4>
+          </div>
+          <a href="#"><i class="ph-bold ph-shopping-cart cart"></i></a>
+        </div>
+      </div>
+    </div>
+</section>
+
+<form action="" id="createProduct-form">
+  <input type="text" placeholder="Nome do produto" id="nomeProduto">           
+  <input type="text" placeholder="Marca do produto" id="marcaProduto">           
+  <input type="text" placeholder="Valor do produto" id="valorProduto">
+  <input type="text" placeholder="Tipo do Produto" id="tipoProduto">
+  <textarea name="" id="datalhesProduto" cols="10" rows="5" placeholder="Detalhes do produto"></textarea>
+  <input type="file" id="imagem">
+  <button class="normal" type="submit" >Cadastrar</button>        
+</form>
+
+  <script src="Produtos.js"></script>  
+  <script src="storage.js"></script>  
+</body>
+</html>
